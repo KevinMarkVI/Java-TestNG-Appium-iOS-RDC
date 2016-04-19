@@ -101,6 +101,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider, SauceOnD
                 capabilities));
         String id = ((RemoteWebDriver) getWebDriver()).getSessionId().toString();
         sessionId.set(id);
+        System.out.println("SauceOnDemandSessionID=" + id + " job-name=" + methodName);
         return webDriver.get();
     }
 
