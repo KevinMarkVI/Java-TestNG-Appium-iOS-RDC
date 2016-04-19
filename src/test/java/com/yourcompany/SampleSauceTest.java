@@ -63,7 +63,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider, SauceOnD
             new Object[]{"iOS", "iPhone 6 Plus", "9.2", "https://s3.amazonaws.com/appium/TestApp8.4.app.zip", "", "portrait", "1.5.1"},
             new Object[]{"iOS", "iPhone 5s", "8.4", "https://s3.amazonaws.com/appium/TestApp8.4.app.zip", "", "portrait", "1.5.1"},
             new Object[]{"iOS", "iPhone 5", "8.4", "https://s3.amazonaws.com/appium/TestApp8.4.app.zip", "", "portrait", "1.5.1"},
-            new Object[]{"iOS", "iPad Retina", "9.2", "https://s3.amazonaws.com/appium/TestApp8.4.app.zip", "", "portrait", "1.5.1"},
+            new Object[]{"iOS", "iPhone 4s", "8.4", "https://s3.amazonaws.com/appium/TestApp8.4.app.zip", "", "portrait", "1.5.1"},
             //Real Device
             new Object[]{"iOS", "iPhone 6 Device", "8.4", "sauce-storage:TestApp-iphoneos.zip", "", "portrait", "1.4.11"}
         };
