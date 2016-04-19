@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="20" verbose="0" name="Failed suite [com.yourcompany.SampleSauceTest]" parallel="methods">
+  <test name="Command line test(failed)" parallel="methods">
+    <classes>
+      <class name="com.yourcompany.SampleSauceTest">
+        <methods>
+          <include name="addSumTest" invocation-numbers="3"/>
+          <include name="launchTest" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- com.yourcompany.SampleSauceTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.yourcompany.SampleSauceTest] -->
